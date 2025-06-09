@@ -1,7 +1,7 @@
-#(Basic) Pacman game design
-## #Problem Statement
+# (Basic) Pacman game design
+## Problem Statement
 Design a basic Pacman game in C++
-## #Solution
+## Solution
 ### Components
 1. Map (board)
 2. Pacman
