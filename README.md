@@ -25,10 +25,10 @@ I will have _Map_ as an _Array of characters_.
 `char map[20][20];`
 **Components**
 Components inside the _Map_ can be either _Moving_ (Pacman and Ghosts) or _Non-Moving_ (Cookies and Wall). And they can be respresented by special _characters_:
-- Pacman as **@**
-- Ghosts as **#**
-- Cookies as **.**
-- Walls as **=**
+- Pacman as `@`
+- Ghosts as `#`
+- Cookies as `.`
+- Walls as `=`
 
 So basic _Map_ of 20x20 array may look like this:
 `char map[20][20] = {`
