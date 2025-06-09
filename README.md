@@ -74,8 +74,17 @@ So basic _Map_ of 20x20 array may look like this:
 
 `};`
 
-For better understanding purpose, I have drawn an image representation of above Map:
-![Pacman Map!](./pacman.png "Pacman Map")
+---
+
+<div align="center">
+  <h3>
+    For better understanding purpose, I have drawn an image representation of above Map:
+  </h3>
+  
+  ![Pacman Map!](./pacman.png "Pacman Map")
+</div>
+
+---
 
 Movement of _Ghosts_ are time driven, which in-turn determine their speed. Speed of a _Ghost_ is that component, which will increase with Level of the game.
 
