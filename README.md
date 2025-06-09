@@ -84,15 +84,21 @@ So basic _Map_ of 20x20 array may look like this:
   ![Pacman Map!](./pacman.png "Pacman Map")
 </div>
 
+> [!NOTE]
+> Movement of _Ghosts_ are time driven, which in-turn determine their speed. Speed of a _Ghost_ is that component, which will increase with Level of the game.
+> Position of the Wall might change as Level of the game changes.
+
 ---
 
-Movement of _Ghosts_ are time driven, which in-turn determine their speed. Speed of a _Ghost_ is that component, which will increase with Level of the game.
-
-Position of the Wall might change as Level of the game changes.
-
-**Class Diagram**
-Below is the class diagram and their relationsship:
-![Class Diagram!](./class-diagram.jpg "Class Diagram")
+<div align="center">
+  <h2>
+    Class Diagram 
+  </h2>
+  
+  **Below is the class diagram and their relationsship:**
+  
+  ![Class Diagram!](./class-diagram.jpg "Class Diagram")
+</div>
 
 **Operation Concurrancy**
 To achieve concurrancy in my design, I will be using 4 C++ threads:
